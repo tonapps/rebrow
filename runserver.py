@@ -10,7 +10,7 @@ import base64
 app = Flask(__name__)
 
 # key for cookie safety. Shal be overridden using ENV var SECRET_KEY
-app.secret_key = os.getenv("SECRET_KEY", "lasfuoi3ro8w7gfow3bwiubdwoeg7p23r8g23rg")
+app.secret_key = os.getenv("SECRET_KEY", "iMJpYSpQkhpRbnFqZcziZSEbtZdkyZPHBoWp796f")
 
 # Description of info keys
 # TODO: to be continued.
